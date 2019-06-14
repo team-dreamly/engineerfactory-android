@@ -7,4 +7,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.engineerfactorysample.MainActivity">
 
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_send_black_24dp"
+        android:id="@+id/fab"
+        android:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fabSize="mini" />
+    
 </RelativeLayout>
